@@ -8,7 +8,7 @@ import { FaInstagram } from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden text-neutral-300 antialiased selection:to-blue-600 selection:text-blue-300'>
         {/* navcomponet */}
         <nav className="  mb-20 flex items-center justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
