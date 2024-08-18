@@ -38,7 +38,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React","Tailwind CSS","Magic UI","Farmer Motion", "Node.js"],
+    technologies: ["React","Tailwind CSS","Magic UI","Framer Motion", "Node.js"],
   },
   
 ];
