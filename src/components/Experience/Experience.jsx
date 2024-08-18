@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Experience() {
     return (
         <div>
-            <div className="border border-neutral-600 pb-4 px-2">
+            <div className="border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2">
                 <div className="">
                     <motion.h1 whileInView={{opacity:1,y:0}}
                     initial={{opacity:0,y:-100}}

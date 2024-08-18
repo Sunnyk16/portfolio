@@ -5,7 +5,7 @@ import {     motion } from "framer-motion"
 function About() {
     return (
         <div >
-            <div className="border border-neutral-800  p-1" >
+            <div className="border border-neutral-900 shadow-sm shadow-slate-300  p-1" >
                 <motion.h2 initial={{x:-100 ,opacity:0}}
                 animate={{x:0,opacity:1}}
                 transition={{duration:0.5}}

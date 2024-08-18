@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Projects() {
     return (
         <div>
-            <div className="border border-neutral-500 pb-4 px-2 my-2">
+            <div className="border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2 my-2">
                 <motion.h2 whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}

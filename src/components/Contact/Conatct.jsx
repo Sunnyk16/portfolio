@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 function Conatct() {
     return (
         <div>
-            <div className='border border-neutral-700 pb-4 px-2 rounded'>
+            <div className='border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2 rounded'>
                 <motion.h2 whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }} className='py-10 text-center text-6xl capitalize'>Get In touch</motion.h2>
