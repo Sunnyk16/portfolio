@@ -1,26 +1,32 @@
 import { CONTACT } from '../../constants/index'
-import { animate, delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 function Conatct() {
     return (
         <div>
             <div className='border border-neutral-700 pb-4 px-2 rounded'>
-                <h2 className='py-10 text-center text-6xl capitalize'>Get In touch</h2>
-                <div className="text-center tracking-wide space-y-4">
+                <motion.h2 whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 0.5 }} className='py-10 text-center text-6xl capitalize'>Get In touch</motion.h2>
+                <motion.div whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    transition={{ duration: 0.5 }} className="text-center tracking-wide space-y-4">
                     <p className="text-lg font-medium text-neutral-300">
                         {CONTACT.address}
                     </p>
-                    <p className="text-lg font-medium text-neutral-300">
+                    <motion.p whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, x: -100 }}
+                        transition={{ duration: 0.5 }} className="text-lg font-medium text-neutral-300">
                         <a href={`tel:${CONTACT.phoneNo}`} className="hover:text-purple-500">
                             {CONTACT.phoneNo}
                         </a>
-                    </p>
+                    </motion.p>
                     <p className="text-lg font-medium text-neutral-300">
                         <a href={`mailto:${CONTACT.email}`} className="hover:text-purple-500">
                             {CONTACT.email}
                         </a>
                     </p>
-                </div>
+                </motion.div>
 
             </div>
         </div>
