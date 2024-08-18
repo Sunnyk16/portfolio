@@ -1,4 +1,5 @@
 import { CONTACT } from '../../constants/index'
+import { animate, delay, motion } from "framer-motion"
 
 function Conatct() {
     return (
