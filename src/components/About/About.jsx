@@ -4,7 +4,7 @@ import { ABOUT_TEXT } from '../../constants'
 function About() {
     return (
         <div >
-            <div className="border border-neutral-800  pb-4" >
+            <div className="border border-neutral-800  p-1" >
                 <h2 className="my-10 text-center text-6xl">About me</h2>
 
                 {/* <div className="flex flex-wrap ">

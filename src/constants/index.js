@@ -1,76 +1,50 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Enthusiastic Full Stack Developer specializing in front-end development with a knack for technologies such as HTML, CSS, Tailwind CSS, Bootstrap, React.js, and JavaScript. Strong working knowledge of MongoDB and Node.js. Ready for hands-on project experiences in a dynamic development environment to apply and further my skills.`;
+
+export const ABOUT_TEXT = `Passionate Full Stack Developer with a strong focus on front-end technologies, including HTML, CSS, Tailwind CSS, Bootstrap, and React.js. Proficient in MongoDB and Node.js, with a commitment to applying and expanding my skills in a dynamic and collaborative environment. Ready to tackle hands-on projects and drive impactful results.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Dec 2023 - Feb 2024",
+    role: "Tech Assiatnce",
+    company: "Road To Code",
+    description: `Supported independent full stack project development and provided technical assistance to students with coding challenges. Strengthened technical skills in HTML, CSS, Tailwind CSS, Bootstrap, React.js, MongoDB, and Node.js while contributing to effective team collaboration in a dynamic learning environment.`,
+    technologies: [ "React.js", "Tailwind CSS", "mongoDB","Express.js","Postman"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Aniwatch",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Dynamic web project built on the MERN stack. Utilizes React for a seamless user experience and MongoDB, Express, and Bootstrap for a robust backend and APIs. The home page is designed for optimal user interaction and visual appeal. Note: Server startup takes 30 seconds.",
+    technologies: ["React","Tailwind CSS", "Node.js", "MongoDB","Express.js","Postman"],
   },
   {
-    title: "Task Management App",
+    title: "coffee-shop ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A React website featuring a beautiful landing page and product page. Built with Bootstrap, it is fully responsive, allowing customers to easily view and purchase coffee products. Efficient React components handle JSON data, creating a clean and interactive user experience.",
+    technologies: ["React","Tailwind CSS", "Node.js", "MongoDB","Express.js","Postman"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React","Tailwind CSS","Magic UI","Farmer Motion", "Node.js"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Pune, Maharashtra",
+  phoneNo: "+91 7715911807",
+  email: "Kumarsunny1246@gmail.com",
 };
