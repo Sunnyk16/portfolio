@@ -21,8 +21,8 @@ function Technology() {
     return (
         <div>
             <div className="border border-neutral-900 pb-4 mt-1 my-2 shadow-sm shadow-slate-300">
-                <motion.h2 whileInView={{opacity:1,y:0}} 
-                initial={{opacity:0,y:-100}}
+                <motion.h2 whileInView={{opacity:1,x:0}} 
+                initial={{opacity:0,x:-100}}
                 transition={{duration:1.5}}
                 className="mx-20 text-center text-6xl mb-6 m-5">Technology</motion.h2>
 

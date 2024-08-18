@@ -22,13 +22,13 @@ function HeroSection() {
                 <div className='w-full lg:w-1/2'>
                 <div className='flex flex-col items-center lg:items-start'>
                     <motion.h1 variants={container(0)} initial='hidden' animate='visible'
-                    className='pb-5 p-2 text-4xl font-light tracking-tight lg:mt-16'>
+                    className='pb-5 p-2 text-6xl font-light tracking-tight lg:mt-16 capitalize font-extrabold'>
                         sunny kumar
                     </motion.h1>
                     <motion.span variants={container(0.5)} initial='hidden' animate='visible' className='bg-gradient-to-r from-blue-300 to-purple-400 bg-clip-text text-4xl  p-2 tracking-tight text-transparent'> 
                         Full Stack Developer
                     </motion.span>
-                    <motion.p variants={container(1)} initial='hidden' animate='visible' className="my-2 max-w-xl py-6 font-light tracking-tight p-2 ">
+                    <motion.p variants={container(1)} initial='hidden' animate='visible' className="my-2 max-w-xl py-6 font-normal tracking-tight p-2 ">
                         {HERO_CONTENT}
                     </motion.p>
 

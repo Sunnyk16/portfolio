@@ -1,4 +1,4 @@
-import profile from '../../assets/sunnykumarProfile.png'
+import profile from '../../assets/profileAbout.png'
 import { ABOUT_TEXT } from '../../constants'
 import {     motion } from "framer-motion"
 
@@ -26,7 +26,7 @@ function About() {
                     className="hidden md:block w-full sm:w-1/2  md:w-1/2 lg:w-1/2 p-4 lg:p-4  ">
                         <img
                             src={profile}
-                            className='rounded-2xl w-4/6 '
+                            className='rounded-2xl w-96 h-80  mx-20 md:mx-5'
                         />
                     </motion.div>
                     <motion.div 

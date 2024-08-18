@@ -15,8 +15,8 @@ function Projects() {
                         <div key={index} className="mb-8 flex flex-wrap lg:justify-center  gap-2  ">
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: -100 }}
-                                transition={{ duration: 0.5 }} className="w-full lg:w-1/4 ">
-                                <img src={project.image} alt={project.title} className="rounded-lg mb-3 sm:w-72 lg:h-48  object-cover  " />
+                                transition={{ duration: 0.5 }} className="w-full  lg:w-1/4 flex justify-center ">
+                                <img src={project.image} alt={project.title} className="rounded-lg mb-3 sm:w-72 md:h-96 md:w-full lg:h-48  " />
                             </motion.div>
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: 100 }}
