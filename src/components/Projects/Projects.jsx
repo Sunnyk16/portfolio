@@ -8,7 +8,7 @@ function Projects() {
                 <h2 className="my-10 text-center text-6xl" >Projects</h2>
                 <div>
                     {PROJECTS.map((project, index) => (
-                    <div key={index} className="mb-8 flex flex-wrap lg:justify-center   ">
+                    <div key={index} className="mb-8 flex flex-wrap lg:justify-center  gap-2  ">
                         <div className="w-full lg:w-1/4 ">
                             <img src={project.image} alt={project.title} className="rounded-lg mb-3 sm:w-72 lg:h-48  "  />
                         </div>
