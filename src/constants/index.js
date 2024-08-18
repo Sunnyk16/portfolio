@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 
 export const HERO_CONTENT = `Enthusiastic Full Stack Developer specializing in front-end development with a knack for technologies such as HTML, CSS, Tailwind CSS, Bootstrap, React.js, and JavaScript. Strong working knowledge of MongoDB and Node.js. Ready for hands-on project experiences in a dynamic development environment to apply and further my skills.`;
@@ -22,6 +22,7 @@ export const PROJECTS = [
   {
     title: "Aniwatch",
     image: project1,
+    link:"https://aniwatch-daj0.onrender.com/",
     description:
       "Dynamic web project built on the MERN stack. Utilizes React for a seamless user experience and MongoDB, Express, and Bootstrap for a robust backend and APIs. The home page is designed for optimal user interaction and visual appeal. Note: Server startup takes 30 seconds.",
     technologies: ["React","Tailwind CSS", "Node.js", "MongoDB","Express.js","Postman"],
@@ -29,6 +30,7 @@ export const PROJECTS = [
   {
     title: "coffee-shop ",
     image: project2,
+    link:"https://coffee-shop17.vercel.app/",
     description:
       "A React website featuring a beautiful landing page and product page. Built with Bootstrap, it is fully responsive, allowing customers to easily view and purchase coffee products. Efficient React components handle JSON data, creating a clean and interactive user experience.",
     technologies: ["React","Tailwind CSS", "Node.js", "MongoDB","Express.js","Postman"],
@@ -36,6 +38,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link:"https://sunnykumar.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React","Tailwind CSS","Magic UI","Framer Motion", "Node.js"],

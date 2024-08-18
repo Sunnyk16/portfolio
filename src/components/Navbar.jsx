@@ -20,7 +20,7 @@ function Navbar() {
             target="_blank"
             rel="noreferrer"
           >
-            
+
             <button
               className="border border-neutral-800 shadow-sm shadow-slate-200  text-white font-medium py-2 px-4 rounded-lg hover:bg-white hover:text-black transition duration-200"
             >

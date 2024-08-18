@@ -16,7 +16,7 @@ function Projects() {
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: -100 }}
                                 transition={{ duration: 0.5 }} className="w-full lg:w-1/4 ">
-                                <img src={project.image} alt={project.title} className="rounded-lg mb-3 sm:w-72 lg:h-48  " />
+                                <img src={project.image} alt={project.title} className="rounded-lg mb-3 sm:w-72 lg:h-48  object-cover  " />
                             </motion.div>
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: 100 }}
@@ -34,6 +34,12 @@ function Projects() {
                                         </div>
                                     ))}
                                 </div>
+                                <div>
+                                    
+                                        <button className="border border-neutral-800 shadow-sm shadow-slate-300  py-1 px-2 mr-2 rounded text-sm font-medium text-white sm:text-xs my-4 hover:scale-105 transition-all">
+                                            <a href={project.link} target="_blank" rel="noreferrer">View Project</a>
+                                        </button>
+                                        </div>
 
                             </motion.div>
 
