@@ -16,7 +16,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           {/* <img src={logo} alt=""/> */}
           <a
-            href="https://drive.google.com/file/d/16MExcnDePwZPrCwXmqf0BbwDcFjf7HeE/view"
+            href="https://drive.google.com/file/d/13Sn3mWRzhLO5fovweBJZJ_Vf4agtAJxS/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
