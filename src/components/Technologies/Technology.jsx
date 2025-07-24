@@ -15,6 +15,7 @@ import {
   SiPostman,
   SiFramer,
 } from "react-icons/si";
+import Seo from "../SEO/Seo";
 
 const iconVariables = (duration) => ({
   initial: { y: -10 },
@@ -29,9 +30,17 @@ const iconVariables = (duration) => ({
   },
 });
 
+// Helper component to add alt text to icons
+const IconWithAlt = ({ icon: Icon, alt, className }) => (
+  <span role="img" aria-label={alt} title={alt}>
+    <Icon className={className} />
+  </span>
+);
+
 function Technology() {
   return (
     <div>
+      <Seo title="Technology Section" description="Sunny Kumar's portfolio technology section showcasing skills and tools." />
       <div className="border border-neutral-900 pb-4 mt-1 my-2 shadow-sm shadow-slate-300">
         <motion.h2
           whileInView={{ opacity: 1, x: 0 }}

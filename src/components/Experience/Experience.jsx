@@ -1,10 +1,12 @@
 import { EXPERIENCES } from "../../constants"
 import { motion } from "framer-motion"
+import Seo from "../SEO/Seo"
 
 
 function Experience() {
     return (
         <div>
+            <Seo title="Experience Section" description="Sunny Kumar's portfolio experience section showcasing professional background and skills." />
             <div className="border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2">
                 <div className="">
                     <motion.h1 whileInView={{opacity:1,y:0}}

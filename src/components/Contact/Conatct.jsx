@@ -1,9 +1,11 @@
 import { CONTACT } from '../../constants/index'
 import { motion } from "framer-motion"
+import Seo from '../SEO/Seo'
 
 function Conatct() {
     return (
         <div>
+            <Seo title="Contact Section" description="Sunny Kumar's portfolio contact section for inquiries and connections." />
             <div className='border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2 rounded mb-3'>
                 <motion.h2 whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}

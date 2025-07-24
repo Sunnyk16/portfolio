@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../../constants"
 import profile from '../../assets/sunnykumarProfile.png'
 import { animate, delay, motion } from "framer-motion"
+import Seo from "../SEO/Seo"
 
 const container =(dealy)=>({
     hidden:{x: -100 ,opacity:0},
@@ -17,6 +18,7 @@ const container =(dealy)=>({
 function HeroSection() {
   return (
     <div>
+        <Seo title="Hero Section" description="Sunny Kumar's portfolio hero section showcasing skills and introduction." />
         <div className='border border-neutral-900 shadow-sm shadow-slate-300  rounded pb-4  my-2 px-2'>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
@@ -42,7 +44,7 @@ function HeroSection() {
                     <motion.img  initial={{x:100,opacity :0}}
                     animate={{x:0,opacity:1}}
                     transition={{delay:1,duration:1.2}}
-                    src={profile} alt="sunny kumar" className="h-96  rounded-sm  drop-shadow-smshadow-lg-white"/>
+                    src={profile} alt="Sunny Kumar profile photo" className="h-96  rounded-sm  drop-shadow-smshadow-lg-white"/>
 
                 </div>
 

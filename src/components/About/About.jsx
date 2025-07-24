@@ -1,10 +1,12 @@
 import profile from '../../assets/profileAbout.png'
 import { ABOUT_TEXT } from '../../constants'
 import {     motion } from "framer-motion"
+import Seo from '../SEO/Seo'
 
 function About() {
     return (
         <div >
+            <Seo title="About Section" description="Sunny Kumar's portfolio about section detailing skills and experience." />
             <div className="border border-neutral-900 shadow-sm shadow-slate-300  p-1" >
                 <motion.h2 initial={{x:-100 ,opacity:0}}
                 animate={{x:0,opacity:1}}
@@ -13,7 +15,7 @@ function About() {
 
                 {/* <div className="flex flex-wrap ">
                 <div className="w-full lg:w-1/2  lg:p-8 sm:">
-                <img src={profile} className='rounded-2xl  lg:w-full'/>
+                <img src={profile} alt="Profile" className='rounded-2xl  lg:w-full'/>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8  ">
                 <p className='my-2 text-2xl md:text-base p-3 sm:text-xs '>{ABOUT_TEXT}</p>
@@ -26,6 +28,7 @@ function About() {
                     className="hidden md:block w-full sm:w-1/2  md:w-1/2 lg:w-1/2 p-4 lg:p-4  ">
                         <img
                             src={profile}
+                            alt="Profile"
                             className='rounded-2xl w-96 h-80  mx-20 md:mx-5'
                         />
                     </motion.div>
