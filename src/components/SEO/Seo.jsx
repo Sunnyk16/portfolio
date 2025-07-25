@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async'
 
 function Seo({ title, description } ) {
   return (
-    <Helmet>
+    <Helmet  titleTemplate="%s | Sunny Kumar">
         <title>{title}</title>
         <meta name="description" content={description} />
     </Helmet>
