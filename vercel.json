@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://sunnykumar.me/$1",
-      "permanent": true
-    }
-  ]
-}
