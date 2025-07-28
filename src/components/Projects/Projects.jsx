@@ -6,7 +6,7 @@ import Seo from "../SEO/Seo"
 function Projects() {
     return (
         <div>
-            <Seo title="Projects Section" description="Sunny Kumar's portfolio projects section showcasing web development and design work." />
+            {/* <Seo title="Projects Section" description="Sunny Kumar's portfolio projects section showcasing web development and design work." /> */}
             
             <div className="border border-neutral-900 shadow-sm shadow-slate-300 pb-4 px-2 my-2">
                 <motion.h2 whileInView={{ opacity: 1, x: 0 }}

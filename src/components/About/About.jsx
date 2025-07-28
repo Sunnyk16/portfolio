@@ -6,7 +6,7 @@ import Seo from '../SEO/Seo'
 function About() {
     return (
         <div >
-            <Seo title="About Section" description="Sunny Kumar's portfolio about section detailing skills and experience." />
+            {/* <Seo title="About Section" description="Sunny Kumar's portfolio about section detailing skills and experience." /> */}
             <div className="border border-neutral-900 shadow-sm shadow-slate-300  p-1" >
                 <motion.h2 initial={{x:-100 ,opacity:0}}
                 animate={{x:0,opacity:1}}

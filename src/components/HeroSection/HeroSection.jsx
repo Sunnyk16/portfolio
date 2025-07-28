@@ -18,7 +18,7 @@ const container =(dealy)=>({
 function HeroSection() {
   return (
     <div>
-        <Seo title="Hero Section" description="Sunny Kumar's portfolio hero section showcasing skills and introduction." />
+        {/* <Seo title="Hero Section" description="Sunny Kumar's portfolio hero section showcasing skills and introduction." /> */}
         <div className='border border-neutral-900 shadow-sm shadow-slate-300  rounded pb-4  my-2 px-2'>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
